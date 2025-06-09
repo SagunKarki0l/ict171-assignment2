@@ -8,7 +8,7 @@ http://3.107.70.192
 **Student Number:** 34977503
 
 ## Video Explainer  
-[Paste your video link here]
+https://murdochuniversity-my.sharepoint.com/:v:/r/personal/34977503_student_murdoch_edu_au/Documents/Old/Recordings/Meeting%20with%20Sagun%20karki%20Karki-20250609_212832-Meeting%20Recording.mp4?csf=1&web=1&e=pTW4XZ&nav=eyJwbGF5YmFja09wdGlvbnMiOnt9LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbE1vZGUiOiJtaXMiLCJyZWZlcnJhbFZpZXciOiJwb3N0cm9sbC1jb3B5bGluayIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiI0YmMwYjIyMS04NDY1LTQyYWEtYmM4Zi04OTU0NWU4NDRjYjgifX0%3D
 
 ## About the Project  
 This is a personal resume website that was created for ICT171 Assignment 2.  
