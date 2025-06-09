@@ -1,0 +1,19 @@
+Script Output – Live Clock Display on Website
+The output of my JavaScript script is shown clearly on the actual website. The live digital clock updates automatically and is placed just under my name and title in the header section.
+
+This proves the script works correctly and is successfully linked with my HTML file.
+
+What You Can See:
+The clock appears near the top of the page (under "Sagun Karki").
+
+It updates every second with the current time.
+
+No need to refresh the page — it's automatic.
+
+This confirms the script is running directly in the browser.
+
+GitHub Location:
+You can view the code in the script.js file in my GitHub repository.
+
+It is connected in index.html using:
+<script src="script.js" defer></script>
