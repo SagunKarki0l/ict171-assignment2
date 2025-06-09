@@ -5,7 +5,7 @@ http://3.107.70.192
 
 ##  Student Details  
 **Name:** Sagun Karki  
-**Student Number:** [Enter your student number here]
+**Student Number:** 34977503
 
 ## Video Explainer  
 [Paste your video link here]
