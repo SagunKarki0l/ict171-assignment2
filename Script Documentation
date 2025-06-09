@@ -1,0 +1,34 @@
+JavaScript Script – Live Clock
+This script adds a live digital clock to my resume website. It updates every second and shows the current time at the top of the page. It's a small feature but it makes the website feel more active and modern.
+
+The script works by using JavaScript's Date object to get the current time, and setInterval to refresh it every second. It updates the content inside a <div> with the ID clock.
+
+Code used:
+javascript
+function updateClock() {
+  const now = new Date();
+  const clock = document.getElementById("clock");
+  clock.textContent = now.toLocaleTimeString();
+}
+
+setInterval(updateClock, 1000);
+updateClock();
+
+Why I used it:
+It shows I understand basic JavaScript concepts like functions, timing, and DOM manipulation.
+
+It adds a real-time element to my website.
+
+It’s a simple way to improve the user experience.
+
+How to use:
+Add a <div id="clock"></div> to your HTML where you want the time to show.
+
+Save the JavaScript code in a file called script.js.
+
+Link it in your HTML like this:
+
+html
+<script src="script.js" defer></script>
+
+This script is small but useful, and I wrote and tested it myself.
