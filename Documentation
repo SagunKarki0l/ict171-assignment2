@@ -1,0 +1,58 @@
+ICT171 Assignment 2 – Server Documentation
+Student Name: Sagun Karki
+Student Email: kitsukarki525@gmail.com
+University: Murdoch University
+
+Overview
+This project is a personal resume website hosted on an Amazon EC2 instance running Ubuntu. It includes basic HTML, CSS, and JavaScript files, styled in mint green, and deployed using Nginx as the web server. The goal was to set up a cloud-based server, upload my files, and make the website publicly accessible.
+
+Server Setup Steps (Amazon EC2)
+Created an EC2 instance (Ubuntu 24.04, t2.micro) from AWS console.
+
+Generated a new key pair (sagun-key.pem) and downloaded it for SSH access.
+
+Opened port 22 (SSH) and 80 (HTTP) in the security group for remote login and website access.
+
+Connected to the EC2 server using:
+
+kotlin
+Copy
+Edit
+ssh -i "sagun-key.pem" ubuntu@<your-public-IP>
+Updated the packages:
+
+sql
+Copy
+Edit
+sudo apt update && sudo apt upgrade -y
+Installed Nginx:
+
+nginx
+Copy
+Edit
+sudo apt install nginx -y
+Moved project files (index.html, style.css, script.js) to /var/www/html:
+
+bash
+Copy
+Edit
+sudo cp index.html style.css script.js /var/www/html/
+
+Project Files
+index.html: Main webpage (resume content)
+
+style.css: Styling using subtle mint colors
+
+script.js: Simple live clock (optional)
+
+Website Link
+http://<your-public-ip>
+(Replace with actual EC2 IP or domain if DNS is configured)
+
+Video Explainer
+Link: [INSERT your video link here after recording]
+
+In the video, I explain how I created the EC2 server, transferred the files, and made the site live. My face is visible, and I go step by step so it’s easy to follow.
+
+Reflection
+This task helped me learn how to set up a live server, work with Linux commands, and deploy a simple website. I also practiced clear file management, GitHub usage, and documentation.
